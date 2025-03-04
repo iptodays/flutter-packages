@@ -1,0 +1,10 @@
+name: civitai_api
+description: "civitai api client."
+version: 0.0.1
+homepage: https://github.com/iptodays/flutter-packages/tree/master/civitai_api
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  dio: ^5.7.0
