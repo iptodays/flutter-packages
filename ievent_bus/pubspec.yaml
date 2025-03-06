@@ -1,0 +1,17 @@
+name: ievent_bus
+description: IEventBus - A Simple Event Bus for Flutter
+version: 0.0.2
+homepage: https://github.com/iptodays/flutter-packages/tree/master/ievent_bus
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0

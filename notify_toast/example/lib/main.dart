@@ -2,8 +2,8 @@
  * @Author: A kingiswinter@gmail.com
  * @Date: 2024-11-29 17:02:35
  * @LastEditors: A kingiswinter@gmail.com
- * @LastEditTime: 2024-11-29 19:03:29
- * @FilePath: /notify_toast/example/lib/main.dart
+ * @LastEditTime: 2025-03-06 13:28:10
+ * @FilePath: /flutter-packages/notify_toast/example/lib/main.dart
  * 
  * Copyright (c) 2024 by A kingiswinter@gmail.com, All Rights Reserved.
  */
@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 NotifyToast().show(
                   context,
-                  bgColor: Colors.green.withOpacity(0.6),
+                  bgColor: Colors.green.withValues(alpha: 0.6),
                   progressColor: Colors.blueGrey,
                   progressHeight: 4,
                   child: Container(
