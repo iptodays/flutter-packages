@@ -2,7 +2,7 @@
  * @Author: A kingiswinter@gmail.com
  * @Date: 2025-02-22 14:17:31
  * @LastEditors: A kingiswinter@gmail.com
- * @LastEditTime: 2025-03-06 15:45:44
+ * @LastEditTime: 2025-03-08 14:39:19
  * @FilePath: /flutter-packages/pubupgrade/lib/pubupgrade.dart
  * 
  * Copyright (c) 2025 by A kingiswinter@gmail.com, All Rights Reserved.
@@ -125,7 +125,7 @@ Future<void> _updatePubspec(
       final oldVersion = packages[key]!.first.replaceFirst('^', '');
       final newVersion = packages[key]!.last;
       logStrong('Upgrading $key: $oldVersion -> $newVersion');
-      yaml = yaml.replaceAll('$key: $oldVersion', '$key: ^$newVersion');
+      yaml = yaml.replaceAll('$key: ^$oldVersion', '$key: ^$newVersion');
     }
     file.writeAsStringSync(yaml);
     logStrong(

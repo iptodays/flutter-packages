@@ -14,7 +14,7 @@
 
 ```yaml
 dev_dependencies:
-  pubupgrade: ^1.0.0+5
+  pubupgrade: ^1.0.0+6
 ```
 
 ## 使用方法

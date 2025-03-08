@@ -1,6 +1,6 @@
 name: pubupgrade
 description: "pubupgrade is a designed to check and upgrade the versions of dependencies in the pubspec.yaml file of projects."
-version: 1.0.0+5
+version: 1.0.0+6
 repository: https://github.com/iptodays/flutter-packages/tree/master/pubupgrade
 
 environment:

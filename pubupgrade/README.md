@@ -16,7 +16,7 @@ Add the following to your project's `pubspec.yaml` file:
 
 ```yaml
 dev_dependencies:
-  pubupgrade: ^1.0.0+5
+  pubupgrade: ^1.0.0+6
 ```
 
 Then run `dart pub get` to fetch the dependency.
